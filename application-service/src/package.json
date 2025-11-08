@@ -1,7 +1,7 @@
 {
-  "name": "order-service",
+  "name": "application-service",
   "version": "1.0.0",
-  "description": "Appointment/Order microservice",
+  "description": "Application microservice for appointments",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
@@ -10,3 +10,4 @@
     "express": "^4.19.2"
   }
 }
+
