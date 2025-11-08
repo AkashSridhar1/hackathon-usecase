@@ -13,3 +13,7 @@ provider "google" {
   region  = var.region
 }
 
+variable "google_credentials" {
+  description = "GCP credentials JSON"
+  type        = string
+}
